@@ -5,37 +5,336 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind-ecommerce-projects</title>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-        <h1>hero</h1>
-        <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis incidunt nostrum unde hic iure ipsum tenetur, et quibusdam qui omnis eveniet perferendis, dolore quam natus, veniam dolores quaerat dolorum ex.</p>
-            <main>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error saepe molestias vitae quasi doloremque maxime nesciunt itaque blanditiis architecto incidunt.</p>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, similique!</h3>
-                <h1>hero section is closed</h1>
-            </main>
-        </section>
+
+    <section class="bg-[#FFFBF0] py-6">
+        <main>
+         <!-- nav area -->
+            <header>
+                <nav class="flex md:flex-row sm:flex-col justify-around items-center pt-4 ">
+
+                    <div class="logo w-96">
+                        
+                        <img src="./images/logo.png" alt="logo">
+                    </div>
+
+                    <!-- Pages  -->
+                    <div class="item flex gap-3 text-lg font-extrabold cursor-pointer ">
+                        <p class="hover:text-[#A4BC45]">Home</p>
+                        <p class="hover:text-[#A4BC45]">Products</p>
+                        <p class="hover:text-[#A4BC45]">About Us</p>
+                        <p class="hover:text-[#A4BC45]">Contact Us</p>
+                    </div>
+                </nav>
+                <!-- nav area ends  -->
+            </header>
+
+            <!-- hero section -->
+            <div class="hero-section mx-auto w-9/12 flex justify-between md:flex-row sm:flex-col px-4 pt-10 ">
+                <!-- left -->
+                 <div class="left flex flex-col  justify-center">
+                    <h1 class="my-4 leading-10">
+                        <!-- hero text  -->
+                        <span class="text-[#FABE4C] text-7xl font-bold ">Be the Penguins</span> 
+
+                        <br> 
+
+                        <span class="text-7xl font-bold"> of Winter</span>
+                    </h1>
+                    <p class="leading-7 text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <br>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, veniam!
+                    </p>
+
+                 <div class="mt-6"> 
+                    <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                </div>
+
+                 </div>
+                 <!--  right  section  -->
+
+                 <picture class="right">
+                    <img src="./images/model.png" alt="">
+                 </picture>
+
+            </div>
+     
+            
+        </main>
+    </section>
+
+
+<!--  women jacket section starts here  -->
+    <section class=" w-9/12 mx-auto mt-10">
 
         <main>
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
-            <img src="./images/jacket-1.png" alt="">
+            <h1 class="font-semibold text-zinc-600 text-2xl italic">WoMan's Jacket</h1>
+
+            <!-- card section -->
+
+            <div class="card-section w-11/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2">
+
+             <!-- card Items starts  -->
+                <!-- 1 -->
+              <div class="card-items">
+
+             <!-- card-1 -->
+                <div class="m-3   shadow-2xl p-4 rounded-2xl" >
+              
+                <div class=" bg-gray-300 rounded-xl mb-6  " >
+                    <img class="w-72 mx-auto p-3" src="./images/jacket-1.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-2xl text-gray-600 mb-3">Yellow Coat Jacket </h1>
+                    <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                    <br>printing and typesetting industry.</p>
+                </div>
+                <!-- price and button  -->
+                <div class="flex justify-between items-center">
+                    <p class="text-3xl font-extrabold text-[#FABE4C]">$234</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                </div>
+              </div>
+
+            </div>
+                
+            <div class="card-items">
+
+                <!-- card-2 -->
+                   <div class="m-3   shadow-2xl p-4 rounded-2xl" >
+                 
+                   <div class=" bg-gray-300 rounded-xl mb-6  " >
+                       <img class="w-72 mx-auto p-3" src="./images/jacket-2.png" alt="">
+                   </div>
+                   <div>
+                       <h1 class="text-2xl text-gray-600 mb-3">Ladies Jacket  </h1>
+                       <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                       <br>printing and typesetting industry.</p>
+                   </div>
+                   <!-- price and button  -->
+                   <div class="flex justify-between items-center">
+                       <p class="text-3xl font-extrabold text-[#FABE4C]">$234</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                   </div>
+                 </div>
+                 
+               </div>
+
+               <div class="card-items">
+
+                <!-- card-3 -->
+                   <div class="m-3  shadow-2xl p-4 rounded-2xl" >
+                 
+                   <div class=" bg-gray-300 rounded-xl mb-6  " >
+                       <img class="w-72 mx-auto p-3" src="./images/jacket-3.png" alt="">
+                   </div>
+                   <div>
+                       <h1 class="text-2xl text-gray-600 mb-3">Woman Leather Jacket </h1>
+                       <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                       <br>printing and typesetting industry.</p>
+                   </div>
+                   <!-- price and button  -->
+                   <div class="flex justify-between items-center">
+                       <p class="text-3xl font-extrabold text-[#FABE4C]">$234</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                   </div>
+                 </div>
+                 
+               </div>
+               <!-- item ends  -->
+
+            </div>
+
         </main>
+    </section>
+
+    <!-- men collection  -->
+    <!-- men collection  -->
+    <!-- men collection  -->
+    <!-- men collection  -->
 
 
-        
+    <section class=" w-9/12 mx-auto mt-10">
+
+        <main>
+            <h1 class="font-semibold text-zinc-600 text-2xl italic">Man's Jacket</h1>
+
+            <!-- card section -->
+
+            <div class="card-section w-11/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2">
+
+             <!-- card Items starts  -->
+                <!-- 1 -->
+              <div class="card-items">
+
+             <!-- card-1 -->
+                <div class="m-3   shadow-2xl p-4 rounded-2xl" >
+              
+                <div class=" bg-gray-300 rounded-xl mb-6  " >
+                    <img class="w-72 mx-auto p-3" src="./images/jacket-4.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-2xl text-gray-600 mb-3">Snowboard Jacket Mens </h1>
+                    <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                    <br>printing and typesetting industry.</p>
+                </div>
+                <!-- price and button  -->
+                <div class="flex justify-between items-center">
+                    <p class="text-3xl font-extrabold text-[#FABE4C]">$210</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                </div>
+              </div>
+
+            </div>
+                
+            <div class="card-items">
+
+                <!-- card-2 -->
+                   <div class="m-3   shadow-2xl p-4 rounded-2xl" >
+                 
+                   <div class=" bg-gray-300 rounded-xl mb-6  " >
+                       <img class="w-72 mx-auto p-3" src="./images/jacket-5.png" alt="">
+                   </div>
+                   <div>
+                       <h1 class="text-2xl text-gray-600 mb-3">Man Leather Jackets  </h1>
+                       <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                       <br>printing and typesetting industry.</p>
+                   </div>
+                   <!-- price and button  -->
+                   <div class="flex justify-between items-center">
+                       <p class="text-3xl font-extrabold text-[#FABE4C]">$290</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                   </div>
+                 </div>
+                 
+               </div>
+
+               <div class="card-items">
+
+                <!-- card-3 -->
+                   <div class="m-3  shadow-2xl p-4 rounded-2xl" >
+                 
+                   <div class=" bg-gray-300 rounded-xl mb-6  " >
+                       <img class="w-72 mx-auto p-3" src="./images/jacket-6.png" alt="">
+                   </div>
+                   <div>
+                       <h1 class="text-2xl text-gray-600 mb-3">Man Casual Jackets </h1>
+                       <p class="mb-10">Lorem Ipsum is simply dummy text of the 
+                       <br>printing and typesetting industry.</p>
+                   </div>
+                   <!-- price and button  -->
+                   <div class="flex justify-between items-center">
+                       <p class="text-3xl font-extrabold text-[#FABE4C]">$254</p> <button class="text-lg font-bold bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg hover:rounded-sm">BUY NOW</button>
+                   </div>
+                 </div>
+                 
+               </div>
+               <!-- item ends  -->
+
+            </div>
+
+        </main>
+    </section>
+
+<!-- icon box --> <!-- icon box --> <!-- icon box --><!-- icon box --> <!-- icon box --> <!-- icon box --><!-- icon box --> <!-- icon box --> <!-- icon box --><!-- icon box --> <!-- icon box --> <!-- icon box --><!-- icon box --> <!-- icon box --> <!-- icon box -->
+
+    <section class="w-10/12 mx-auto my-40" >
+
+        <main class="flex justify-between mx-auto md:flex-row sm:flex-col ">
+
+            <div class="left   flex flex-col items-center">
+                <!-- items -->
+                 <div class="item1 border rounded-md flex gap-4 items-center shadow-2xl p-2 ">
+
+                    <div class="icon">
+                        <img class="w-20" src="./images/icon1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1 class="text-lg font-bold leading-10">Find the Perfect Fit</h1>
+                        <p>Everybody is different, which is why we
+                          <br>  offer styles for every body.</p>
+                    </div>
+                 </div>
+                 <!-- end  -->
+                <!-- items -->
+                 <div class="item2 border my-4 flex gap-4 items-centerlg shadow-2xl rounded-md p-2 ">
+
+                    <div class="icon">
+                        <img class="w-20" src="./images/icon2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1 class="text-lg font-bold leading-10">Find the Perfect Fit</h1>
+                        <p>Everybody is different, which is why we
+                          <br>  offer styles for every body.</p>
+                    </div>
+                 </div>
+                 <!-- end  -->
+                <!-- items -->
+                 <div class="item3 border rounded-md  flex gap-4 items-center shadow-2xl p-2 mb-6 ">
+
+                    <div class="icon">
+                        <img class="w-20" src="./images/icon3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h1 class="text-lg font-bold leading-10">Find the Perfect Fit</h1>
+                        <p>Everybody is different, which is why we
+                          <br>  offer styles for every body.</p>
+                    </div>
+                 </div>
+                 <!-- end  -->
+
+
+            </div>
+
+            <div class="right w-6/12 mt-5 mx-auto">
+                <img class="" src="./images/shopping.png" alt="">
+            </div>
+
+        </main>
+    </section>
+
+<!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer --><!-- footer -->
+
+    <footer class="w-10/12 my-8 mx-auto flex justify-between  md:flex-row sm:flex-col">
+
+        <div class="left  sm:mb-7">
+            <img  class="w-96" src="./images/logo.png" alt="">
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>Laudantium atque facilis dolore voluptatum quam sunt saepe 
+                <br>sit reiciendis facere tempore.</p>
+        </div>
+
+        <div class="middle sm:mb-7 text-lg cursor-pointer ">
+            <!-- pages -->
+            <h1 class="font-bold text-lg">All pages </h1>
+
+            <p class="hover:text-[#A4BC45]">Home</p>
+            <p class="hover:text-[#A4BC45]">Products</p>
+            <p class="hover:text-[#A4BC45]">About Us</p>
+            <p class="hover:text-[#A4BC45]">Contact Us</p>
+        </div>
+
+        <div class="right sm:mb-7 text-lg cursor-pointer">
+              <h1 class="font-bold text-lg">All categories </h1>
+
+              <p class="hover:text-[#A4BC45]" >Man's Jackets </p>
+              <p class="hover:text-[#A4BC45]">WoMan's Jackets </p>
+              <p class="hover:text-[#A4BC45]">Baby's Jackets </p>
+              <p class="hover:text-[#A4BC45]">Leather Jackets </p>
+        </div>
+
+        <div class="right  text-lg cursor-pointer">
+              <h1 class="font-bold text-lg">Shipping Cost</h1>
+
+              <p class="hover:text-[#A4BC45]" >Inside Dhaka 50 </p>
+              <p class="hover:text-[#A4BC45]">Out Side dhaka 130  </p>
+              <p class="hover:text-[#A4BC45]">Inside Asia 600 </p>
+              <p class="hover:text-[#A4BC45]">Outside Asia 900 </p>
+        </div>
+
+    </footer>
+            <hr>
+
+        <footer class="mx-auto my-5 text-center">
+            <p class="font-bold italic"> This Website demo code by Mr Mamun.</p>
+        </footer>
 </body>
-</html>
+</html> 
